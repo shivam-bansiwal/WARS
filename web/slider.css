@@ -1,0 +1,52 @@
+.slider{
+    overflow:hidden;
+    height:480px;
+    width:1450px;
+    
+}
+.slider figure div{
+    float:left;
+    width:30%;
+}
+.slider figure img{
+    width:100%;
+    float:left;
+}
+.slider figure{
+    position:relative;
+    width:330.5%;
+    margin:0;
+    padding:0;
+    left:0;
+    animation: 10s shivam infinite;
+}
+@keyframes shivam{
+    0%{
+    left: 0%;
+}
+   20%{
+   left: 0%;
+}
+   25%{
+   left: -100%; 
+}
+   45%{
+   left: -100%; 
+}
+   50%{
+   left: -200%; 
+}
+   70%{
+    left: -200%;
+} 
+ 
+
+   80%{
+    left: -100%;
+   
+}
+   100%{
+    left: 0%
+}
+
+}

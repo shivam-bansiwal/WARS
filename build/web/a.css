@@ -1,0 +1,78 @@
+body{
+	
+	margin:0;
+	padding:0;
+	background:url(abc.jpg);
+	background-size:cover;
+	background-position:center;
+	font-family:sans-serif;
+}
+.training_detail{
+	width:450px;
+	height:690px;
+	background:rgba(0,0,0,0.5);
+	color:#fff;
+	top:89%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:50px 30px;
+	
+}
+.abc{
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	position:absolute;
+	top:-50px;
+	left:calc(50% - 50px);
+}
+h1{
+	margin:0;
+	padding:0 0 10px;
+	text-align:center;
+	font-size:22px;
+}
+.training_detail p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+.training_detail input{
+	width:300px;
+	display:blocks;
+	border:none;
+	height:47px;
+	border-bottom:1px solid white;
+	margin-bottom:15px;
+	
+}
+
+
+.training_detail input[type="text"]
+{
+	border:none;
+	border-bottom:1px solid#fff;
+	background:transparent;
+	outline:none;
+	height:50px;
+	color:#fff;
+	font-size:16px;
+
+.training_detail input[type="submit"]
+{
+	border:none;
+	outline:none;	
+	height:40px;
+	background:#1d8adb;
+	color:#fff;
+	font-size:20px;
+	border-radius:20px;
+}
+.training_detail input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:#39ddc79;
+	color:#000;
+}
